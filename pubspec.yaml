@@ -62,6 +62,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/icons/
+    - assets/images/
 #     - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -76,8 +77,18 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/avenir/AvenirNextLTPro-Bold.otf
+          weight: 700
+        - asset: assets/fonts/avenir/AvenirNextLTPro-Demi.otf
+          weight: 600
+        - asset: assets/fonts/avenir/AvenirLTProMedium.otf
+          weight: 500
+        - asset: assets/fonts/avenir/AvenirNextLTPro-Regular.otf
+          weight: 400
+
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
